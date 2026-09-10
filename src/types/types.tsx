@@ -5,6 +5,6 @@ export interface Player {
     nationality: string;
     origin: string;
     club: string;
-    positions: string;
+    position: string;
     marketValue: string;
 }
