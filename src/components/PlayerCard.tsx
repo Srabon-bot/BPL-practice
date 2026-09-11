@@ -1,4 +1,4 @@
-import { useState, type Dispatch } from 'react';
+import { useState, type Dispatch, type SetStateAction } from 'react';
 import type { Player } from '../types/types';
 import { IoIosFootball } from 'react-icons/io';
 import { FaDollarSign } from 'react-icons/fa';
@@ -8,21 +8,25 @@ interface PlayerCardProps {
     player: Player;
     coins: number;
     setCoins: Dispatch<React.SetStateAction<number>>;
+    setSelectedPlayers: Dispatch<SetStateAction<Player[]>>;
+    selectedPlayers: Player[];
 }
 
-const PlayerCard = ({ player, coins, setCoins }: PlayerCardProps) => {
+const PlayerCard = ({ player, coins, setCoins, setSelectedPlayers }: PlayerCardProps) => {
+    // ^ note: selectedPlayers itself isn't even needed as a prop anymore
     const [isAddToTeam, setIsAddToTeam] = useState(false);
 
     const handlePlayers = () => {
         if (coins >= player.marketValue) {
             setIsAddToTeam(true);
-            const newBalance = coins - player.marketValue;
-            setCoins(newBalance);
+            setCoins((prevCoins) => prevCoins - player.marketValue);
             toast.success(`${player.playerName} added to the team`);
+
+            setSelectedPlayers((prev) => [...(prev ?? []), player]);
         } else {
             toast.error("Not enough coins to add this player");
         }
-    }
+    };
 
 
     return (

@@ -10,6 +10,8 @@ interface PlayersProps {
 }
 
 const Players = ({ playersPromise, coins, setCoins }: PlayersProps) => {
+const [selectedPlayers, setSelectedPlayers] = useState<Player[]>([]);
+
     const [buttonType, setButtonType] = useState("showAll");
     const players = use(playersPromise);
 
@@ -32,7 +34,8 @@ const Players = ({ playersPromise, coins, setCoins }: PlayersProps) => {
             </div>
 
             <div>
-                {buttonType === "showAll" ? <AllPlayers coins={coins} setCoins={setCoins} players={players} /> : <Selected />}
+                {buttonType === "showAll" ? <AllPlayers coins={coins} setCoins={setCoins} players={players} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}/> : 
+                <Selected selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}/>}
 
             </div>
         </div>
