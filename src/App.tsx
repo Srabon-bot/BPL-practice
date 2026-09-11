@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import './App.css'
 import Banner from './components/Banner'
 import Nav from './components/Nav'
@@ -14,12 +14,14 @@ const playersFetch = async ():Promise<Player[]> => {
 const playersPromise = playersFetch();     // fix 3: create once, outside the component
 
 function App() {
+  const [coins, setCoins]= useState(600000000);
+
   return (
     <>
-      <Nav />
+      <Nav coins={coins}/>
       <Banner />
       <Suspense fallback={<h2>Loading...</h2>}>
-        <Players playersPromise={playersPromise} />
+        <Players coins={coins} setCoins={setCoins} playersPromise={playersPromise} />
       </Suspense>
     </>
   )

@@ -1,13 +1,15 @@
-import { use, useState } from 'react';
+import { use, useState, type Dispatch } from 'react';
 import type { Player } from '../types/types';
 import AllPlayers from './AllPlayers';
 import Selected from './Selected';
 
 interface PlayersProps {
-    playersPromise: Promise<Player[]>
+    playersPromise: Promise<Player[]>;
+    coins: number;
+    setCoins: Dispatch<React.SetStateAction<number>>;
 }
 
-const Players = ({ playersPromise }: PlayersProps) => {
+const Players = ({ playersPromise, coins, setCoins }: PlayersProps) => {
     const [buttonType, setButtonType] = useState("showAll");
     const players = use(playersPromise);
 
@@ -22,13 +24,15 @@ const Players = ({ playersPromise }: PlayersProps) => {
                     {buttonType === "showAll" ? "All players" : "Selected players"}
                 </h2>
                 <div>
-                    <button onClick={() => handleButton("showAll")} className={`btn ${buttonType === "showAll" ? `btn-success` : ``} rounded-r-none`}>Show All</button>
-                    <button onClick={() => handleButton("selected")} className={`btn ${buttonType === "selected" ? `btn-success` : ``} rounded-l-none`}>Selected</button>
+                    <button onClick={() => handleButton("showAll")} 
+                    className={`btn ${buttonType === "showAll" ? `btn-success` : ``} rounded-r-none`}>Show All</button>
+                    <button onClick={() => handleButton("selected")}
+                     className={`btn ${buttonType === "selected" ? `btn-success` : ``} rounded-l-none`}>Selected</button>
                 </div>
             </div>
 
             <div>
-                {buttonType === "showAll" ? <AllPlayers players={players} /> : <Selected />}
+                {buttonType === "showAll" ? <AllPlayers coins={coins} setCoins={setCoins} players={players} /> : <Selected />}
 
             </div>
         </div>

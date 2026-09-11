@@ -6,5 +6,5 @@ export interface Player {
     origin: string;
     club: string;
     position: string;
-    marketValue: string;
+    marketValue: number;
 }

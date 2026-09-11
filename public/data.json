@@ -5,9 +5,9 @@
     "wikiTitle": "Cristiano Ronaldo",
     "alt": "Cristiano Ronaldo, forward for Al Nassr",
     "nationality": "Portugal",
-    "origin": "Funchal, Madeira, Portugal",
+    "origin": "Madeira, Portugal",
     "club": "Al Nassr",
-    "marketValue": "€10M",
+    "marketValue": 10000000,
     "position": "Forward"
   },
   {
@@ -18,7 +18,7 @@
     "nationality": "Argentina",
     "origin": "Rosario, Argentina",
     "club": "Inter Miami",
-    "marketValue": "€15M",
+    "marketValue": 15000000,
     "position": "Forward"
   },
   {
@@ -29,7 +29,7 @@
     "nationality": "France",
     "origin": "Paris, France",
     "club": "Real Madrid",
-    "marketValue": "€170M",
+    "marketValue": 170000000,
     "position": "Forward"
   },
   {
@@ -40,7 +40,7 @@
     "nationality": "Norway",
     "origin": "Leeds, England",
     "club": "Manchester City",
-    "marketValue": "€180M",
+    "marketValue": 180000000,
     "position": "Striker"
   },
   {
@@ -51,7 +51,7 @@
     "nationality": "Brazil",
     "origin": "São Gonçalo, Brazil",
     "club": "Real Madrid",
-    "marketValue": "€170M",
+    "marketValue": 170000000,
     "position": "Winger"
   },
   {
@@ -62,7 +62,7 @@
     "nationality": "England",
     "origin": "Stourbridge, England",
     "club": "Real Madrid",
-    "marketValue": "€180M",
+    "marketValue": 180000000,
     "position": "Attacking Midfielder"
   },
   {
@@ -73,7 +73,7 @@
     "nationality": "Belgium",
     "origin": "Drongen, Belgium",
     "club": "Napoli",
-    "marketValue": "€25M",
+    "marketValue": 25000000,
     "position": "Attacking Midfielder"
   },
   {
@@ -84,7 +84,7 @@
     "nationality": "Brazil",
     "origin": "Mogi das Cruzes, Brazil",
     "club": "Santos",
-    "marketValue": "€15M",
+    "marketValue": 15000000,
     "position": "Forward"
   },
   {
@@ -95,7 +95,7 @@
     "nationality": "Egypt",
     "origin": "Nagrig, Egypt",
     "club": "Liverpool",
-    "marketValue": "€45M",
+    "marketValue": 45000000,
     "position": "Winger"
   },
   {
@@ -106,7 +106,7 @@
     "nationality": "Poland",
     "origin": "Warsaw, Poland",
     "club": "Barcelona",
-    "marketValue": "€15M",
+    "marketValue": 15000000,
     "position": "Striker"
   },
   {
@@ -117,7 +117,7 @@
     "nationality": "England",
     "origin": "London, England",
     "club": "Bayern Munich",
-    "marketValue": "€80M",
+    "marketValue": 80000000,
     "position": "Striker"
   },
   {
@@ -128,7 +128,7 @@
     "nationality": "France",
     "origin": "Lyon, France",
     "club": "Al Ittihad",
-    "marketValue": "€10M",
+    "marketValue": 10000000,
     "position": "Striker"
   },
   {
@@ -139,7 +139,7 @@
     "nationality": "Croatia",
     "origin": "Zadar, Croatia",
     "club": "AC Milan",
-    "marketValue": "€8M",
+    "marketValue": 8000000,
     "position": "Midfielder"
   },
   {
@@ -150,7 +150,7 @@
     "nationality": "Portugal",
     "origin": "Maia, Portugal",
     "club": "Manchester United",
-    "marketValue": "€65M",
+    "marketValue": 65000000,
     "position": "Attacking Midfielder"
   },
   {
@@ -161,7 +161,7 @@
     "nationality": "South Korea",
     "origin": "Chuncheon, South Korea",
     "club": "LAFC",
-    "marketValue": "€12M",
+    "marketValue": 12000000,
     "position": "Forward"
   },
   {
@@ -172,7 +172,7 @@
     "nationality": "Senegal",
     "origin": "Sedhiou, Senegal",
     "club": "Al Nassr",
-    "marketValue": "€14M",
+    "marketValue": 14000000,
     "position": "Winger"
   },
   {
@@ -183,7 +183,7 @@
     "nationality": "Netherlands",
     "origin": "Breda, Netherlands",
     "club": "Liverpool",
-    "marketValue": "€25M",
+    "marketValue": 25000000,
     "position": "Centre-Back"
   },
   {
@@ -194,7 +194,7 @@
     "nationality": "Spain",
     "origin": "Madrid, Spain",
     "club": "Manchester City",
-    "marketValue": "€110M",
+    "marketValue": 110000000,
     "position": "Defensive Midfielder"
   },
   {
@@ -205,7 +205,7 @@
     "nationality": "Spain",
     "origin": "Tegueste, Spain",
     "club": "Barcelona",
-    "marketValue": "€100M",
+    "marketValue": 100000000,
     "position": "Midfielder"
   },
   {
@@ -216,7 +216,7 @@
     "nationality": "Spain",
     "origin": "Los Palacios y Villafranca, Spain",
     "club": "Barcelona",
-    "marketValue": "€70M",
+    "marketValue": 70000000,
     "position": "Midfielder"
   },
   {
@@ -227,7 +227,7 @@
     "nationality": "Germany",
     "origin": "Stuttgart, Germany",
     "club": "Bayern Munich",
-    "marketValue": "€130M",
+    "marketValue": 130000000,
     "position": "Attacking Midfielder"
   },
   {
@@ -238,7 +238,7 @@
     "nationality": "Germany",
     "origin": "Pulheim, Germany",
     "club": "Liverpool",
-    "marketValue": "€140M",
+    "marketValue": 140000000,
     "position": "Attacking Midfielder"
   },
   {
@@ -249,7 +249,7 @@
     "nationality": "England",
     "origin": "London, England",
     "club": "Arsenal",
-    "marketValue": "€150M",
+    "marketValue": 150000000,
     "position": "Winger"
   },
   {
@@ -260,7 +260,7 @@
     "nationality": "England",
     "origin": "Stockport, England",
     "club": "Manchester City",
-    "marketValue": "€110M",
+    "marketValue": 110000000,
     "position": "Midfielder"
   },
   {
@@ -271,7 +271,7 @@
     "nationality": "England",
     "origin": "London, England",
     "club": "Arsenal",
-    "marketValue": "€120M",
+    "marketValue": 120000000,
     "position": "Defensive Midfielder"
   },
   {
@@ -282,7 +282,7 @@
     "nationality": "Uruguay",
     "origin": "Montevideo, Uruguay",
     "club": "Real Madrid",
-    "marketValue": "€110M",
+    "marketValue": 110000000,
     "position": "Midfielder"
   },
   {
@@ -293,7 +293,7 @@
     "nationality": "France",
     "origin": "Mâcon, France",
     "club": "Atletico Madrid",
-    "marketValue": "€20M",
+    "marketValue": 20000000,
     "position": "Forward"
   },
   {
@@ -304,7 +304,7 @@
     "nationality": "Belgium",
     "origin": "Bree, Belgium",
     "club": "Real Madrid",
-    "marketValue": "€25M",
+    "marketValue": 25000000,
     "position": "Goalkeeper"
   },
   {
@@ -315,7 +315,7 @@
     "nationality": "Brazil",
     "origin": "Novo Hamburgo, Brazil",
     "club": "Liverpool",
-    "marketValue": "€22M",
+    "marketValue": 22000000,
     "position": "Goalkeeper"
   },
   {
@@ -326,7 +326,7 @@
     "nationality": "Germany",
     "origin": "Mönchengladbach, Germany",
     "club": "Barcelona",
-    "marketValue": "€15M",
+    "marketValue": 15000000,
     "position": "Goalkeeper"
   },
   {
@@ -337,7 +337,7 @@
     "nationality": "Germany",
     "origin": "Gelsenkirchen, Germany",
     "club": "Bayern Munich",
-    "marketValue": "€4M",
+    "marketValue": 4000000,
     "position": "Goalkeeper"
   },
   {
@@ -348,7 +348,7 @@
     "nationality": "Spain",
     "origin": "Camas, Spain",
     "club": "Monterrey",
-    "marketValue": "€3M",
+    "marketValue": 3000000,
     "position": "Centre-Back"
   },
   {
@@ -359,7 +359,7 @@
     "nationality": "Brazil",
     "origin": "São José dos Campos, Brazil",
     "club": "Manchester United",
-    "marketValue": "€15M",
+    "marketValue": 15000000,
     "position": "Defensive Midfielder"
   },
   {
@@ -370,7 +370,7 @@
     "nationality": "Italy",
     "origin": "Pescara, Italy",
     "club": "Al Arabi",
-    "marketValue": "€8M",
+    "marketValue": 8000000,
     "position": "Midfielder"
   },
   {
@@ -381,7 +381,7 @@
     "nationality": "Argentina",
     "origin": "Laguna Larga, Argentina",
     "club": "AS Roma",
-    "marketValue": "€18M",
+    "marketValue": 18000000,
     "position": "Forward"
   },
   {
@@ -392,7 +392,7 @@
     "nationality": "Argentina",
     "origin": "Rosario, Argentina",
     "club": "Benfica",
-    "marketValue": "€4M",
+    "marketValue": 4000000,
     "position": "Winger"
   },
   {
@@ -403,7 +403,7 @@
     "nationality": "Algeria",
     "origin": "Sarcelles, France",
     "club": "Al Ahli",
-    "marketValue": "€10M",
+    "marketValue": 10000000,
     "position": "Winger"
   },
   {
@@ -414,7 +414,7 @@
     "nationality": "France",
     "origin": "Paris, France",
     "club": "Al Ittihad",
-    "marketValue": "€12M",
+    "marketValue": 12000000,
     "position": "Defensive Midfielder"
   },
   {
@@ -425,7 +425,7 @@
     "nationality": "Morocco",
     "origin": "Madrid, Spain",
     "club": "Paris Saint-Germain",
-    "marketValue": "€70M",
+    "marketValue": 70000000,
     "position": "Right-Back"
   },
   {
@@ -436,7 +436,7 @@
     "nationality": "France",
     "origin": "Vernon, France",
     "club": "Paris Saint-Germain",
-    "marketValue": "€90M",
+    "marketValue": 90000000,
     "position": "Forward"
   },
   {
@@ -447,7 +447,7 @@
     "nationality": "Brazil",
     "origin": "São Paulo, Brazil",
     "club": "Paris Saint-Germain",
-    "marketValue": "€35M",
+    "marketValue": 35000000,
     "position": "Centre-Back"
   },
   {
@@ -458,7 +458,7 @@
     "nationality": "Germany",
     "origin": "Rottweil, Germany",
     "club": "Bayern Munich",
-    "marketValue": "€40M",
+    "marketValue": 40000000,
     "position": "Defensive Midfielder"
   },
   {
@@ -469,7 +469,7 @@
     "nationality": "Canada",
     "origin": "Buduburam, Ghana",
     "club": "Bayern Munich",
-    "marketValue": "€50M",
+    "marketValue": 50000000,
     "position": "Left-Back"
   },
   {
@@ -480,7 +480,7 @@
     "nationality": "Portugal",
     "origin": "Almada, Portugal",
     "club": "AC Milan",
-    "marketValue": "€75M",
+    "marketValue": 75000000,
     "position": "Winger"
   },
   {
@@ -491,7 +491,7 @@
     "nationality": "Nigeria",
     "origin": "Lagos, Nigeria",
     "club": "Galatasaray",
-    "marketValue": "€65M",
+    "marketValue": 65000000,
     "position": "Striker"
   },
   {
@@ -502,7 +502,7 @@
     "nationality": "Argentina",
     "origin": "Bahía Blanca, Argentina",
     "club": "Inter Milan",
-    "marketValue": "€100M",
+    "marketValue": 100000000,
     "position": "Striker"
   },
   {
@@ -513,7 +513,7 @@
     "nationality": "Argentina",
     "origin": "Calchín, Argentina",
     "club": "Atletico Madrid",
-    "marketValue": "€90M",
+    "marketValue": 90000000,
     "position": "Forward"
   },
   {
@@ -524,7 +524,7 @@
     "nationality": "England",
     "origin": "Manchester, England",
     "club": "Chelsea",
-    "marketValue": "€110M",
+    "marketValue": 110000000,
     "position": "Attacking Midfielder"
   },
   {
@@ -535,7 +535,7 @@
     "nationality": "Sweden",
     "origin": "Solna, Sweden",
     "club": "Liverpool",
-    "marketValue": "€130M",
+    "marketValue": 130000000,
     "position": "Striker"
   },
   {
@@ -546,7 +546,7 @@
     "nationality": "Netherlands",
     "origin": "Amsterdam, Netherlands",
     "club": "RB Leipzig",
-    "marketValue": "€80M",
+    "marketValue": 80000000,
     "position": "Attacking Midfielder"
   }
 ]

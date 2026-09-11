@@ -1,7 +1,30 @@
+import { useState, type Dispatch } from 'react';
 import type { Player } from '../types/types';
 import { IoIosFootball } from 'react-icons/io';
+import { FaDollarSign } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
-const PlayerCard = ({ player }: { player: Player }) => {
+interface PlayerCardProps {
+    player: Player;
+    coins: number;
+    setCoins: Dispatch<React.SetStateAction<number>>;
+}
+
+const PlayerCard = ({ player, coins, setCoins }: PlayerCardProps) => {
+    const [isAddToTeam, setIsAddToTeam] = useState(false);
+
+    const handlePlayers = () => {
+        if (coins >= player.marketValue) {
+            setIsAddToTeam(true);
+            const newBalance = coins - player.marketValue;
+            setCoins(newBalance);
+            toast.success(`${player.playerName} added to the team`);
+        } else {
+            toast.error("Not enough coins to add this player");
+        }
+    }
+
+
     return (
         <div className="group w-full max-w-sm overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-slate-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             {/* Image */}
@@ -11,8 +34,9 @@ const PlayerCard = ({ player }: { player: Player }) => {
                     alt={player.alt}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <span className="absolute top-3 right-3 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
-                    {player.marketValue}
+                <span className="absolute top-3 right-3 inline-flex items-center gap-1 rounded-full bg-slate-900/75 px-3 py-1 text-xs font-semibold text-white shadow-sm backdrop-blur-md whitespace-nowrap">
+                    <FaDollarSign className="shrink-0 text-emerald-400" />
+                    <span>{player.marketValue}</span>
                 </span>
             </figure>
 
@@ -55,8 +79,17 @@ const PlayerCard = ({ player }: { player: Player }) => {
                     </div>
                 </dl>
 
-                <button className="mt-5 w-full rounded-xl bg-emerald-600 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-700 active:bg-emerald-800">
-                    Add to team
+                <button
+                    onClick={() => { handlePlayers(); }}
+                    className={`mt-5 w-full rounded-xl
+                     bg-emerald-600 py-2.5 text-sm font-semibold
+                     text-white transition-colors
+                     hover:bg-emerald-700 active:bg-emerald-800
+                     disabled:bg-gray-400 disabled:hover:bg-gray-400
+                        disabled:cursor-not-allowed disabled:opacity-70`}
+                    disabled={isAddToTeam}
+                >
+                    {isAddToTeam ? "Added to team" : "Add to team"}
                 </button>
             </div>
         </div>
